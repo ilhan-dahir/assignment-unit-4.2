@@ -1,0 +1,50 @@
+/* Background Color */
+body {
+    background-color: palegoldenrod;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+h2 {
+    background-color: greenyellow;
+    color: rebeccapurple
+}
+
+h3 {
+    background-color: powderblue;
+    color: peru
+}
+
+img {
+    border: 5px solid #555;
+    width: 300px;
+    height: auto;
+}
+
+img:hover {
+    animation: Shake 0.5s linear infinite;
+}
+
+@keyframes Shake {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    25% {
+        transform: translate(5px, 5px) rotate(5deg);
+    }
+
+    50% {
+        transform: translate(0, 0) rotate(0eg);
+    }
+
+    75% {
+        transform: translate(-5px, 5px) rotate(-5deg);
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
